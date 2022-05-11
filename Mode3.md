@@ -26,7 +26,6 @@ img[alt=simbol] { width: 200px;
                  float:right  }
 </style>
 
-
 <h1>Modelación y Simulación 3 </h1>
 
 # Contenidos
@@ -40,6 +39,8 @@ img[alt=simbol] { width: 200px;
 5. [Diagramas de Niveles y Flujos](#diagramas-de-niveles-y-flujos)
 6. [Integracion Grafica](#integracion-grafica)
 7. [Retardos](#retardos)
+8. [Dinamica de Crecimiento en S](#dinamica-de-crecimiento-en-s)
+9. [Validacion](#validacion)
 
 # Teoria General de los Sistemas
 
@@ -50,7 +51,7 @@ img[alt=simbol] { width: 200px;
 Conjunto de principios o grupo que interactúa o es independiente formando el todo. cada sistema tiene sus límites espaciales o temporales, rodeado e influenciado por su entorno.
 Hay patrones de comportamiento que se repiten.
 
-**Entrada:** Materia, energía  $\rightarrow$  **Salidas** Interacción entre componentes:  Materia, energía, transformación
+**Entrada:** Materia, energía $\rightarrow$ **Salidas** Interacción entre componentes: Materia, energía, transformación
 
 ### Metas principales:
 
@@ -71,7 +72,6 @@ de unidad de la ciencia.
 
 ![grande](img/Realim.png)
 
-
 ### Clasificación de los Sistemas
 
 1. #### Según el medio ambiente:
@@ -89,7 +89,7 @@ de unidad de la ciencia.
 
 - Naturales
 - Artificiales
-- Ambos 
+- Ambos
 
 4. #### Según sus relaciones:
 
@@ -109,6 +109,7 @@ de unidad de la ciencia.
 <br>
 
 # Diagramas Causales
+
 [Contenidos](#contenidos)
 
 Son una forma rápida de **explicar hipótesis** acerca de las causas de la dinámica del sistema
@@ -119,32 +120,33 @@ Permiten observar:
 - Realimentación
 - Captura ESTRUCTURA, no comportamientos.
 
-***
+---
+
 ![mediano](img/not.png)
 ![mediano](img/not2.png)
 <br>
 
 ## ¿Cómo hacer diagramas causales?
+
 <br>
 
 1. Causa vs Correlación
-    - La correlación expresa el comportamiento pasado de la variables
-    - Incluyen relaciones que captura la estructura interna del sistema( diagramas...)
-    - Las correlaciones surgen de la simulación del sistema
 
+   - La correlación expresa el comportamiento pasado de la variables
+   - Incluyen relaciones que captura la estructura interna del sistema( diagramas...)
+   - Las correlaciones surgen de la simulación del sistema
 
 2. Definir la polaridad del **vínculo** de variables
-    - Positivas +  
-    - Negativas -  
 
+   - Positivas +
+   - Negativas -
 
 3. Determinar la polaridad del **ciclo**
-    Rastrear el efecto de las variables y sus polaridades a medida que se propaga el ciclo 
-    Multiplicar los signos y lo que se obtiene es la retroalimentación del ciclo.
+   Rastrear el efecto de las variables y sus polaridades a medida que se propaga el ciclo
+   Multiplicar los signos y lo que se obtiene es la retroalimentación del ciclo.
 
-    - Positivas +  $\rightarrow$ Balance
-    - Negativas -  $\rightarrow$ Refuerzo
-
+   - Positivas + $\rightarrow$ Balance
+   - Negativas - $\rightarrow$ Refuerzo
 
 4. Dar nombres a los ciclos
 
@@ -154,18 +156,15 @@ Permiten observar:
 <br>
 
 5. Indicar los retardos importantes
-    Crean dinámica
-
+   Crean dinámica
 
 6. Nombres de las variables:
 
-    Nombres  $\rightarrow$ Sustantivos, sujetos
+   Nombres $\rightarrow$ Sustantivos, sujetos
 
+   Acciones $\rightarrow$ son las Flechas
 
-    Acciones  $\rightarrow$ son las Flechas
-
-    **Escoger nombres positivos**
-
+   **Escoger nombres positivos**
 
 7. Metas específicas
 
@@ -179,20 +178,17 @@ y tratan de corregir la discrepancia
 
 ![mediano](img/nam2.png)
 
-
 # Arquetipos
+
 [Contenidos](#contenidos)
 
 Modelo Original (Base de algo)
 
 Patrones de comportamiento que se repiten constantemente en un sistema
 
-
 ### TIPOS DE ARQUETIPOS
 
-
 1. ### Desplazamiento de Cargas
-
 
 Problema que se evidencia con síntoma y tiene dos posibles soluciones.
 
@@ -202,14 +198,12 @@ Problema que se evidencia con síntoma y tiene dos posibles soluciones.
 
 - **Solución lenta:** Solución a largo plazo y soluciona el problema.
 
-
 **Partes:**
 
 - Síntoma
 - Solución corto plazo
 - Solución largo plazo
 - Efecto secundario
-
 
 **Ejemplos:**
 
@@ -219,10 +213,8 @@ Problema que se evidencia con síntoma y tiene dos posibles soluciones.
 
 ![mediano](img/desplazaDC.png)
 
-
 <br>
 <br>
-
 
 2. ### Soluciones que Fallan
 
@@ -234,15 +226,13 @@ Problema que se evidencia con síntoma y tiene dos posibles soluciones.
 
 - Se atacan las consecuencias del problema, no el problema real
 
-
-**Partes:** 
+**Partes:**
 
 - Estado actual
 - Estado deseado
 - Diferencia
 - Ajuste
 - Efecto no deseado
-
 
 **Ejemplos:**
 
@@ -258,16 +248,14 @@ Problema que se evidencia con síntoma y tiene dos posibles soluciones.
 
 - Hay recurso limitante
 
-
 - **Partes:**
 
-    - Crecimiento
-    - Limitante exogeno
-    - Condición
-    - Desacelerador
+  - Crecimiento
+  - Limitante exogeno
+  - Condición
+  - Desacelerador
 
-
-**Ejemplo:** 
+**Ejemplo:**
 
 Siempre tengo 2 baños y varían las personas que los necesitan
 
@@ -279,8 +267,6 @@ Siempre tengo 2 baños y varían las personas que los necesitan
 4. ### Balance con Retardo
 
 Cuando alguno o varias de los procesos dentro del diagrama se demora más que otros.
-
-
 
 **Ejemplos:**
 
@@ -296,8 +282,7 @@ Ley Oferta - Demanda
 2 Entidades que se sienten amenazadas por las demás
 
 - Estructura:
-    2 Ciclos de Balance que genera un ciclo reforzado
-
+  2 Ciclos de Balance que genera un ciclo reforzado
 
 **Partes**
 
@@ -306,7 +291,6 @@ Ley Oferta - Demanda
 - Resultados de A/B
 - Acción A
 - Acción B
-
 
 **Ejemplo:** CocaCola vs Pepsi, Guerras de precios, inversión en mercadeo
 
@@ -322,13 +306,15 @@ Se tiene una meta y un objetivo.
 Cuando en vez de incremetar las condiciones para alcanzar el objetivo se disminuye la meta
 
 **Parte:**
+
 - Condicion desada
 - Condicion actual
-- Brecha $\rightarrow$  diferencia entre c. deseada y c. actual
-- Meta 
+- Brecha $\rightarrow$ diferencia entre c. deseada y c. actual
+- Meta
 - Presión
 
 **Ejemplos:**
+
 - Pérdida de peso
 
 <br>
@@ -345,10 +331,9 @@ Personas con éxito inicial tendrán exito más adelante
 Víctima $\rightarrow$ repite lo que tuvo éxito en el pasado
 
 - Soluciones:
-    - Cambiar objetivo
-    - Transformar estructura competitiva en colaborativa
-    - Balance con logros
-
+  - Cambiar objetivo
+  - Transformar estructura competitiva en colaborativa
+  - Balance con logros
 
 **Partes:**
 
@@ -357,7 +342,6 @@ Víctima $\rightarrow$ repite lo que tuvo éxito en el pasado
 - Porcentaje de Recursos A/B
 - Recursos para A
 - Recursos para B
-
 
 **Ejemplos:**
 Equipos de fútbol ganadores, universidades, canales de TV, directores de cine
@@ -373,6 +357,7 @@ Se comparte un recurso limitado entre varios individuos. Este tenderá a acabars
 Se deben establecer límites
 
 **Partes:**
+
 - Ganancia A
 - Ganancia B
 - Actividad A
@@ -381,23 +366,21 @@ Se deben establecer límites
 - Ganancia individual
 - Limite del recurso
 
-
 **Ejemplo**
 
 Estanque de peces, el que pesque más hasta que se muera la población
-
 
 <br>
 
 ![mediano](img/tragediaDLC.png)
 
-
 # Estructura y Comportamiento
+
 [Contenidos](#contenidos)
 
 ## Básicos
 
-***
+---
 
 ![peque](img/compExpo.png)
 
@@ -407,87 +390,73 @@ Estanque de peces, el que pesque más hasta que se muera la población
 
 **Realimentación positiva**
 
-
 El estado del sistema se duplica en un período fijo de tiempo
 
+<br>
 
 <br>
 
-
-<br>
-
-***
+---
 
 ![peque](img/compBus.png)
 
 ### 2. Búsqueda de Metas
+
 <br>
 
 **Realimentación Negativa**
 
 Los ciclos negativos buscan balancear o equilibrar los sistemas.
 
-
 Tratan de llevar el sistema a un estado deseado
 
 <br>
-**Ejemplos**: Inventarios, Agua caliente en la ducha, etc
+**Ejemplos:** Inventarios, Agua caliente en la ducha, etc
 
-
-***
-
+---
 
 ![peque](img/compOsc.png)
 
 ### 3. Oscilaciones
+
 <br>
 
 **Realimentación Negativa con retardos**
 
-
 El estado del sistema constantemente varía alrededor de la meta o equilibrio.
 
-***
-<br>
-<br>
+---
 
+<br>
+<br>
 
 ## Interacciones no lineales de los modos Básicos
 
-
-
 <br>
 
-***
-
+---
 
 ![peque](img/crecS.png)
 
 ### 4.Crecimiento en forma de S
 
-
 **Crecimiento exponencial al principio**
-
 
 **Refuerzo y Balance**
 
 El crecimiento disminuye gradualmente hasta que el sistema alcanza un
 nivel de equilibrio
 
-
-| CONDICIONES  CRITICAS |  
-| ----------- |
+| CONDICIONES CRITICAS                                                                                                             |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | Sin retardos de tiempo significativos. Si los tuviera, el sistema alcanzaría la capacidad de carga y oscilaría alrededor de ella |
-| La capacidad de carga debería ser fija |
-
-
+| La capacidad de carga debería ser fija                                                                                           |
 
 **Ejemplo:**
 
 CAPACIDAD DE CARGA
 
-***
-
+---
 
 ![peque](img/crecOvOs.png)
 
@@ -495,51 +464,44 @@ CAPACIDAD DE CARGA
 
 **Refuerzo , Balance y RETARDO**
 
-| CONDICIONES  CRITICAS |  
-| ----------- |
+| CONDICIONES CRITICAS            |
+| ------------------------------- |
 | Retardo de tiempo significativo |
 
-
-***
-
+---
 
 ![peque](img/crecOC.png)
 
 ### 6.Overshoot y Colapso
 
-
 **Refuerzo , Balance con o sin retardo , capacidad de carga**
 
-| CONDICIONES  CRITICAS |  
-| ----------- |
+| CONDICIONES CRITICAS       |
+| -------------------------- |
 | Capacidad de Carga NO FIJA |
 
-
-
-***
-
+---
 
 # Diagramas de Niveles y Flujos
+
 [Contenidos](#contenidos)
 
-Permiten: 
+Permiten:
 
 - Entender el concepto de **acumulación** y **tasa de cambio** (flujos)
 - Modelar los cambios de los sistemas matemáticamente
 - Simular el comportamiento de sistemas
 - Son representaciones de sistemas de ecuaciones diferenciales acopladas
 
-
 | DIAGRAMAS DE NIVELES Y FLUJOS |  
 | VARIABLE | USOS | SÍMBOLO |
 | ----------- | ----------- | ----------- |
-| NIVELES |  Acumulador , Unidades sin tiempo, Variables de estado | ![simbol](img/nivelS.png) |
-| FLUJOS |  Única forma de cambiar **niveles**  , Regula entrada y salida de niveles , Siempre unidades/tiempo | ![simbol](img/flujoS.png) |
+| NIVELES | Acumulador , Unidades sin tiempo, Variables de estado | ![simbol](img/nivelS.png) |
+| FLUJOS | Única forma de cambiar **niveles** , Regula entrada y salida de niveles , Siempre unidades/tiempo | ![simbol](img/flujoS.png) |
 | FUENTES / SUMIDEROS | No hay límites de recursos | ![simbol](img/fuenteS.png) ![simbol](img/sumideroS.png) |
 | VARIABLES AUXILIARES | Cálculos auxiliares, Convertidores de información | ![simbol](img/auxiliarS.png) |
 | PARÁMETROS | Valores constantes durante toda la simulación, Constantes Universales | ![simbol](img/parametroS.png)
 | CONECTORES | Muestran flujos de información | ![simbol](img/felchasS.png) |
-
 
 ### Relación entre niveles y flujos
 
@@ -547,9 +509,7 @@ Tasa Neta = $T_{neta}= Entrada - Salida$
 
 $\frac{dN}{dt} =  \sum_{i=1}^n Entrada - Salida = \sum T_{neta}$
 
-
 $\frac{[ Personas ]}{[ año ]} = \frac{ Personas }{ año }$
-
 
 ### Pasos para hacer SIMULACIÓN EN VENSIM de diagramas de Niveles y de flujos
 
@@ -560,13 +520,11 @@ $\frac{[ Personas ]}{[ año ]} = \frac{ Personas }{ año }$
 5. Agregar ecuación de flujos y VERIFICAR Unidades
 6. Simular y ver resultados
 
-
-
 # Integracion Grafica
+
 [Contenidos](#contenidos)
 
-
-Matemáticamente... 
+Matemáticamente...
 Los niveles integran sus flujos negativos
 El flujo Neto es la derivada de un nivel
 
@@ -575,7 +533,6 @@ Tasa Neta = $T_{neta}= Entrada - Salida$
 $\frac{dN}{dt} =  \sum_{i=1}^n Entrada - Salida = \sum T_{neta}$
 
 $N(t) = N(0) +  \int_{T_{0}}^{T}  Entrada- Salida \, dt$
-  
 
 $Tasa Neta = \sum Flujos de entrada - \sum Flujos de salida$
 
@@ -585,33 +542,31 @@ $\frac{[ Personas ]}{[ año ]} = \frac{ Personas }{ año }$
 
 ### Equilibrio estático y dinámico
 
-
 #### Un sistema está en equilibrio si todos sus niveles permanecen sin cambio
 
-* **Equilibrio:**
-La tasa neta de cambio del nivel es cero
+- **Equilibrio:**
+  La tasa neta de cambio del nivel es cero
 
 $\sum Entrada - \sum Salida $
 
-* **Equilibrio dinámico:**
-Los flujos de entrada igualan a los flujos de salida
+- **Equilibrio dinámico:**
+  Los flujos de entrada igualan a los flujos de salida
 
 $\sum Entrada = \sum Salida $
-
 
 **Equilibrio estático:**
 Todos los flujos desde y hacia el nivel son cero
 
-$ Entrada=0  Salida=0 $
-
+$ Entrada=0 Salida=0 $
 
 ### Integración Gráfica:
-A partir del comportamiento de los **flujos**, inferir el comportamiento de los **niveles**
 
+A partir del comportamiento de los **flujos**, inferir el comportamiento de los **niveles**
 
 ![mediano](img/Integracion.png)
 
 ### Diferenciación Gráfica:
+
 A partir del comportamiento de los **niveles**, inferir el comportamiento de la tasa neta de **flujo**
 
 Simplemente hay que estimar la pendiente del nivel en cualquier punto del tiempo
@@ -623,26 +578,25 @@ Si existen múltiples flujos de entrada y salida no es posible determinar su val
 ![mediano](img/dif.png)
 
 # Retardos
+
 [Contenidos](#contenidos)
 
 Proceso cuyos resultados quedan atrás de sus causas en alguna forma
 
-
-***Los retardos siempre crean peligros***
-
+**_Los retardos siempre crean peligros_**
 
 **Peligrosos:** Inestabilidad y oscilación
 
 **Benéficos:** Filtran variabilidad indeseada, separan señales y ruidos.
 
-
 ## Características:
 
 - Toma tiempo
 
-- Afectan el estado del sistema 
+- Afectan el estado del sistema
 
 #### Ejemplos:
+
 ▪ Moda
 ▪ Difusión de tecnologías
 ▪ Epidemia
@@ -652,18 +606,17 @@ Proceso cuyos resultados quedan atrás de sus causas en alguna forma
 
 ## Tipos de Retardos:
 
-## Hay que preguntarse: 
+## Hay que preguntarse:
 
 **Tiempo promedio del retardos**
 
 **Distribución del retardo**
 
-
 ### A.Por Tipo:
 
-### 1. Retardo Material 
+### 1. Retardo Material
 
-Existen unidades físicas moviéndose a través del proceso 
+Existen unidades físicas moviéndose a través del proceso
 
 Las entrada y salida en los retardos de material se conservan
 
@@ -673,10 +626,9 @@ Las entrada y salida en los retardos de material se conservan
 
 La salida es proporcional al nivel de material en tránsito
 
-```Salida = Nivel/Tiempo de Retardo```
+`Salida = Nivel/Tiempo de Retardo`
 
 ![mediano](img/material1.png)
-
 
 ### Retardo de Material de 3er Orden
 
@@ -689,17 +641,15 @@ Salida = Nivel 3 / Retardo
 
 ![mediano](img/material3.png)
 
-
-
 ### Retardo de Material de Orden Infinito
 
 ▪ Retardo discreto
 ▪ Retardo de Tubería
 
-***Banda transportadora***
-
+**_Banda transportadora_**
 
 ### 2. Retardo de Información
+
 Las creencias, expectativas y proyecciones están basadas en la información disponible hasta el momento
 
 Las personas no cambian su forma de pensar inmediatamente frente al arribo de nueva información
@@ -710,16 +660,13 @@ La única información es el comportamiento actual y pasado del sistema.
 
 Toma tiempo juntar la información y decidir la nueva tendencia $\rightarrow$ Los cambios en el pronóstico serán retardados detrás de las condiciones actuales.
 
-El  pronóstico se ajusta (adapta) gradualmente a la serie de datos reales. Si el pronóstico es persistentemente equivocado, se ajustará gradualmente hasta que el error es eliminado.
-
+El pronóstico se ajusta (adapta) gradualmente a la serie de datos reales. Si el pronóstico es persistentemente equivocado, se ajustará gradualmente hasta que el error es eliminado.
 
 ### Retardo de Información de 1er Orden
 
-
 ![mediano](img/infoR.png)
 
-```Cambio en la entrada = (Entrada - Salida) / Retardo de Tiempo```
-
+`Cambio en la entrada = (Entrada - Salida) / Retardo de Tiempo`
 
 ### Retardo de Información de 3er Orden
 
@@ -729,18 +676,15 @@ El  pronóstico se ajusta (adapta) gradualmente a la serie de datos reales. Si e
 
 ![mediano](img/ordenR.png)
 
-### Retardo de Tubería 
+### Retardo de Tubería
 
 El tiempo total de retardo es constante.
 
-
 El orden de salida de los items es exactamente igual al orden de entrada.
-
 
 “Intervalo de Transporte
 
-
-## Modelando Retardos 
+## Modelando Retardos
 
 Información:
 
@@ -759,6 +703,78 @@ DELAY1I (<Input>,<DelayTime>, <Initial>)... también DELAY3I
 ```
 
 Tubería:
+
 ```
 DELAY FIXED(<Input>,<DelayTime>,<Initial>)
 ```
+
+# Dinamica de Crecimiento en S
+
+[Contenidos](#contenidos)
+
+### Modelo de Epidemias
+
+![mediano](img/epi.png)
+
+# Funciones No lineales
+
+[Contenidos](#contenidos)
+
+## Relaciones no lineales
+
+## Funciones Tabla
+
+Son una herramienta
+
+**Analiza que tanto cambia el modelo si yo cambio algún parámetro.**
+
+1. Normalización
+2. Puntos de referencia
+3. Políticas de referencia
+4. Valores extremos
+5. Dominio de la variable independiente
+6. Formas posibles
+7. Especificar Valores
+8. Verificar comportamiento del modelo
+
+![mediano](img/factMult.png)
+
+# Validacion de Modelos
+
+[Contenidos](#contenidos)
+
+- Modelos formales o mentales
+- ¿Es el modelo una **representación** adecuada de la **realidad** respecto a su **propósito** ?
+- Importan supuestos
+- Buena documentación para creerla
+- Comprensión
+
+### Es más que replicar el comportamiento
+
+- Cada variable debe tener una explicación real:
+  Entender de donde vienen las variables, qué significan, que significan las relaciones, retardos, etc.
+
+## Tipos de Modelos
+
+## 1. Modelos caja negra o CORRELACIONALES:
+
+    No se conocen como funciona, ni su estructura, sin embargo, son muy perfectos
+
+## 2. Modelos caja blanca o CAUSALES:
+
+    Se conoce cómo funcionan, su estructura, relaciones, etc.
+
+### “Resultado correcto por las razones correctas”
+
+### Pruebas de límites del Modelo
+
+1. 
+2. 
+3. 
+
+### Pruebas de evaluación de la estructura
+
+- Verificar la consistencia de la estructura con el sistema real
+- Agregación, sistema físico.
+
+### Consistencia dimensional
