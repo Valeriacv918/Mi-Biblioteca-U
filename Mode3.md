@@ -1,4 +1,5 @@
 <!-- EL ENCABEZADO SON PROPIEDADES DEL DOCUMENTO EN CSS -->
+<!-- Para ver el documento cmd+ SHIFT+ V -->
 
 <style>
 h1 {
