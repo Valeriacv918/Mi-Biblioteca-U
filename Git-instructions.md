@@ -78,3 +78,10 @@ pwd -> lugar donde estoy
 letra i para escribir en el commit
 
 ```
+
+## Instrucciones:
+1. Git add 
+    . si voy a añadir todo los archivos
+    file el archivo que voy a añadir
+2. Git commit 
+3. Git push
